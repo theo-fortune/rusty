@@ -12,4 +12,8 @@ fn main() {
 
     let pi: f64 = 3.14;
     println!("Value of pi: {}", pi);
+
+    let is_snowing: bool = true;
+    println!("Is it snowing? {}", is_snowing)
+
 }
