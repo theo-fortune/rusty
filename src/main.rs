@@ -14,6 +14,10 @@ fn main() {
     println!("Value of pi: {}", pi);
 
     let is_snowing: bool = true;
-    println!("Is it snowing? {}", is_snowing)
+    println!("Is it snowing? {}", is_snowing);
+
+    let letter: char = 'a';
+    println!("First letter of the alphabet is {}", letter)
+
 
 }
