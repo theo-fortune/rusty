@@ -17,7 +17,15 @@ fn main() {
     println!("Is it snowing? {}", is_snowing);
 
     let letter: char = 'a';
-    println!("First letter of the alphabet is {}", letter)
+    println!("First letter of the alphabet is {}", letter);
+
+    let numbers: [i32; 5]  = [1,2,3,4,5];
+    println!("The Numbers {:?}", numbers);
+
+    let fruits: [&str; 3] = ["Apple", "Banana", "Pineapple"];
+    println!("Fruits array 1st element: {}", fruits[0]);
+    println!("Fruits array 2nd element: {}", fruits[1]);
+    println!("Fruits array 3rd element: {}", fruits[2]);
 
 
 }
